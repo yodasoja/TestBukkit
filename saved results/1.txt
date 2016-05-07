@@ -1,0 +1,8 @@
+Sat Apr 30 16:40:23 CDT 2016
+
+org/bukkit/Color.java: Mutating operator from expression 6 of 9: this.blue == that.blue && this.green == that.green && this.red == that.red to || 
+
+Testing mutant... Done (0.199 sec). Out of 108 tests, 1 failed:
+testInequalities(TestAll): 0:FFFFAA_AAFFFF-rFF-gFF-bAA to 0:FFFFFF_FFFFFF-rFF-gFF-bFF
+Expected: is not <Color:[rgb0xFFFFFF]>
+     but: was <Color:[rgb0xFFFFAA]>

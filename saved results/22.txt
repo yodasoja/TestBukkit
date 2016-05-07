@@ -1,0 +1,13 @@
+Sat Apr 30 16:43:32 CDT 2016
+
+org/bukkit/Color.java: Mutating operator from expression 8 of 9: value == null to != 
+
+Testing mutant... Done (9.817 sec). Out of 108 tests, 1 failed:
+testSerialization(TestAll): 0:FFFFFF_FFFFFF-rFF-gFF-bFF on color:
+  ==: Color
+  RED: 255
+  BLUE: 255
+  GREEN: 255
+
+Expected: is null
+     but: was <Color:[rgb0xFFFFFF]>

@@ -1,0 +1,6 @@
+Sat Apr 30 16:45:17 CDT 2016
+
+org/bukkit/Note.java: Mutating operator from expression 2 of 8: octave < 0 || octave > 2 || (octave == 2 && !(tone == Tone.F && sharped)) to && 
+
+Testing mutant... Done (0.18 sec). Out of 108 tests, 1 failed:
+createNoteOctaveAboveMax(TestAll): Expected exception: java.lang.IllegalArgumentException

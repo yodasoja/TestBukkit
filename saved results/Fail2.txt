@@ -1,0 +1,10 @@
+Sat Apr 30 15:31:30 CDT 2016
+
+org/bukkit/ChatColor.java: Mutating operator from expression 2 of 2: input == null to != 
+
+Testing mutant... Done (0.187 sec). Out of 108 tests, 3 failed:
+stripColor(TestAll): 
+Expected: is "testtesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttest"
+     but: was null
+stripColorOnNullString(TestAll): null
+getByNull(TestAll): null

@@ -1,0 +1,86 @@
+Sat Apr 30 16:45:33 CDT 2016
+
+org/bukkit/Color.java: Mutating operator from expression 9 of 9: Color:[rgb0x + Integer.toHexString(getRed()).toUpperCase() + Integer.toHexString(getGreen()).toUpperCase()+ Integer.toHexString(getBlue()).toUpperCase()+ ] to * 
+
+Testing mutant... Done (0.053 sec). Out of 108 tests, 81 failed:
+getByStringWithEmpty(TestAll): Unexpected exception, expected<java.lang.IllegalArgumentException> but was<java.lang.NoClassDefFoundError>
+testInvalidBGR1(TestAll): Unexpected exception, expected<java.lang.IllegalArgumentException> but was<java.lang.NoClassDefFoundError>
+testInvalidBGR2(TestAll): Unexpected exception, expected<java.lang.IllegalArgumentException> but was<java.lang.NoClassDefFoundError>
+testInvalidBGR3(TestAll): Unexpected exception, expected<java.lang.IllegalArgumentException> but was<java.lang.NoClassDefFoundError>
+testInvalidBGR4(TestAll): Unexpected exception, expected<java.lang.IllegalArgumentException> but was<java.lang.NoClassDefFoundError>
+testInvalidRGB1(TestAll): Unexpected exception, expected<java.lang.IllegalArgumentException> but was<java.lang.NoClassDefFoundError>
+testInvalidRGB2(TestAll): Unexpected exception, expected<java.lang.IllegalArgumentException> but was<java.lang.NoClassDefFoundError>
+testInvalidRGB3(TestAll): Unexpected exception, expected<java.lang.IllegalArgumentException> but was<java.lang.NoClassDefFoundError>
+testInvalidRGB4(TestAll): Unexpected exception, expected<java.lang.IllegalArgumentException> but was<java.lang.NoClassDefFoundError>
+stripColor(TestAll): org/bukkit/ChatColor
+testSerialization(TestAll): org/bukkit/Color
+testBGR(TestAll): org/bukkit/Color
+testRGB(TestAll): org/bukkit/Color
+testRed(TestAll): org/bukkit/Color
+getByStringWithNull(TestAll): Unexpected exception, expected<java.lang.IllegalArgumentException> but was<java.lang.NoClassDefFoundError>
+testGreen(TestAll): org/bukkit/Color
+testBlue(TestAll): org/bukkit/Color
+getByString(TestAll): org/bukkit/ChatColor
+translateAlternateColorCodes(TestAll): org/bukkit/ChatColor
+stripColorOnNullString(TestAll): org/bukkit/ChatColor
+testEqualities(TestAll): org/bukkit/Color
+getByChar(TestAll): org/bukkit/ChatColor
+getByNull(TestAll): org/bukkit/ChatColor
+getByDataCropState(TestAll): org/bukkit/CropState
+testWordWrap10(TestAll): org/bukkit/util/ChatPaginator
+testWordWrap11(TestAll): org/bukkit/ChatColor
+getByDataCoalType(TestAll): org/bukkit/CoalType
+getByDataTreeSpecies(TestAll): org/bukkit/TreeSpecies
+getByDataGrassSpecies(TestAll): org/bukkit/GrassSpecies
+getByIdEffectTest(TestAll): org/bukkit/block/BlockFace
+testWordWrap1(TestAll): org/bukkit/ChatColor
+testWordWrap2(TestAll): org/bukkit/util/ChatPaginator
+testWordWrap3(TestAll): org/bukkit/ChatColor
+testWordWrap4(TestAll): org/bukkit/util/ChatPaginator
+testWordWrap5(TestAll): org/bukkit/util/ChatPaginator
+testWordWrap6(TestAll): org/bukkit/util/ChatPaginator
+testWordWrap7(TestAll): org/bukkit/util/ChatPaginator
+testWordWrap8(TestAll): org/bukkit/util/ChatPaginator
+testWordWrap9(TestAll): org/bukkit/util/ChatPaginator
+testPaginate1(TestAll): org/bukkit/util/ChatPaginator
+testPaginate2(TestAll): org/bukkit/util/ChatPaginator
+testPaginate3(TestAll): org/bukkit/util/ChatPaginator
+testInvalidB01(TestAll): Unexpected exception, expected<java.lang.IllegalArgumentException> but was<java.lang.NoClassDefFoundError>
+testInvalidB02(TestAll): Unexpected exception, expected<java.lang.IllegalArgumentException> but was<java.lang.NoClassDefFoundError>
+testInvalidB03(TestAll): Unexpected exception, expected<java.lang.IllegalArgumentException> but was<java.lang.NoClassDefFoundError>
+testInvalidB04(TestAll): Unexpected exception, expected<java.lang.IllegalArgumentException> but was<java.lang.NoClassDefFoundError>
+testInvalidB05(TestAll): Unexpected exception, expected<java.lang.IllegalArgumentException> but was<java.lang.NoClassDefFoundError>
+testInvalidB06(TestAll): Unexpected exception, expected<java.lang.IllegalArgumentException> but was<java.lang.NoClassDefFoundError>
+testInvalidB07(TestAll): Unexpected exception, expected<java.lang.IllegalArgumentException> but was<java.lang.NoClassDefFoundError>
+testInvalidB08(TestAll): Unexpected exception, expected<java.lang.IllegalArgumentException> but was<java.lang.NoClassDefFoundError>
+testInvalidB09(TestAll): Unexpected exception, expected<java.lang.IllegalArgumentException> but was<java.lang.NoClassDefFoundError>
+testInvalidB10(TestAll): Unexpected exception, expected<java.lang.IllegalArgumentException> but was<java.lang.NoClassDefFoundError>
+testInvalidB11(TestAll): Unexpected exception, expected<java.lang.IllegalArgumentException> but was<java.lang.NoClassDefFoundError>
+testInvalidB12(TestAll): Unexpected exception, expected<java.lang.IllegalArgumentException> but was<java.lang.NoClassDefFoundError>
+testInvalidG01(TestAll): Unexpected exception, expected<java.lang.IllegalArgumentException> but was<java.lang.NoClassDefFoundError>
+testInvalidG02(TestAll): Unexpected exception, expected<java.lang.IllegalArgumentException> but was<java.lang.NoClassDefFoundError>
+testInvalidG03(TestAll): Unexpected exception, expected<java.lang.IllegalArgumentException> but was<java.lang.NoClassDefFoundError>
+testInvalidG04(TestAll): Unexpected exception, expected<java.lang.IllegalArgumentException> but was<java.lang.NoClassDefFoundError>
+testInvalidG05(TestAll): Unexpected exception, expected<java.lang.IllegalArgumentException> but was<java.lang.NoClassDefFoundError>
+testInvalidG06(TestAll): Unexpected exception, expected<java.lang.IllegalArgumentException> but was<java.lang.NoClassDefFoundError>
+testInvalidG07(TestAll): Unexpected exception, expected<java.lang.IllegalArgumentException> but was<java.lang.NoClassDefFoundError>
+testInvalidG08(TestAll): Unexpected exception, expected<java.lang.IllegalArgumentException> but was<java.lang.NoClassDefFoundError>
+testInvalidG09(TestAll): Unexpected exception, expected<java.lang.IllegalArgumentException> but was<java.lang.NoClassDefFoundError>
+testInvalidG10(TestAll): Unexpected exception, expected<java.lang.IllegalArgumentException> but was<java.lang.NoClassDefFoundError>
+testInvalidG11(TestAll): Unexpected exception, expected<java.lang.IllegalArgumentException> but was<java.lang.NoClassDefFoundError>
+testInvalidG12(TestAll): Unexpected exception, expected<java.lang.IllegalArgumentException> but was<java.lang.NoClassDefFoundError>
+testInvalidR01(TestAll): Unexpected exception, expected<java.lang.IllegalArgumentException> but was<java.lang.NoClassDefFoundError>
+testInvalidR02(TestAll): Unexpected exception, expected<java.lang.IllegalArgumentException> but was<java.lang.NoClassDefFoundError>
+testInvalidR03(TestAll): Unexpected exception, expected<java.lang.IllegalArgumentException> but was<java.lang.NoClassDefFoundError>
+testInvalidR04(TestAll): Unexpected exception, expected<java.lang.IllegalArgumentException> but was<java.lang.NoClassDefFoundError>
+testInvalidR05(TestAll): Unexpected exception, expected<java.lang.IllegalArgumentException> but was<java.lang.NoClassDefFoundError>
+testInvalidR06(TestAll): Unexpected exception, expected<java.lang.IllegalArgumentException> but was<java.lang.NoClassDefFoundError>
+testInvalidR07(TestAll): Unexpected exception, expected<java.lang.IllegalArgumentException> but was<java.lang.NoClassDefFoundError>
+testInvalidR08(TestAll): Unexpected exception, expected<java.lang.IllegalArgumentException> but was<java.lang.NoClassDefFoundError>
+testInvalidR09(TestAll): Unexpected exception, expected<java.lang.IllegalArgumentException> but was<java.lang.NoClassDefFoundError>
+testInvalidR10(TestAll): Unexpected exception, expected<java.lang.IllegalArgumentException> but was<java.lang.NoClassDefFoundError>
+testInvalidR11(TestAll): Unexpected exception, expected<java.lang.IllegalArgumentException> but was<java.lang.NoClassDefFoundError>
+testInvalidR12(TestAll): Unexpected exception, expected<java.lang.IllegalArgumentException> but was<java.lang.NoClassDefFoundError>
+getChatColors(TestAll): org/bukkit/ChatColor
+toStringWorks(TestAll): org/bukkit/ChatColor
+testInequalities(TestAll): org/bukkit/Color

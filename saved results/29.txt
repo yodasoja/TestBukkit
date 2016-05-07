@@ -1,0 +1,16 @@
+Sat Apr 30 16:44:38 CDT 2016
+
+org/bukkit/Note.java: Mutating operator from expression 1 of 8: sharped && !tone.isSharpable() to || 
+
+Testing mutant... Done (0.185 sec). Out of 108 tests, 7 failed:
+createNoteFlat(TestAll): null
+testSharpWrapping2(TestAll): Unexpected exception, expected<java.lang.IllegalArgumentException> but was<java.lang.ArrayIndexOutOfBoundsException>
+createNoteFlatNonFlattenable(TestAll): 
+Expected: is <B>
+     but: was <C>
+doo(TestAll): 
+Expected: is <Note{G#}>
+     but: was <Note{A}>
+testHighest(TestAll): 7
+testLowest(TestAll): 7
+testFlatWrapping(TestAll): 7

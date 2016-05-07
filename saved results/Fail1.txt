@@ -1,0 +1,8 @@
+Sat Apr 30 15:30:52 CDT 2016
+
+org/bukkit/ChatColor.java: Mutating operator from expression 1 of 2: !isFormat && this != RESET to || 
+
+Testing mutant... Done (0.188 sec). Out of 108 tests, 1 failed:
+getChatColors(TestAll): 
+Expected: is "§c§o"
+     but: was "§o"

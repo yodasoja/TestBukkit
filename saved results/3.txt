@@ -1,0 +1,8 @@
+Sat Apr 30 16:40:44 CDT 2016
+
+org/bukkit/Note.java: Mutating operator from expression 7 of 8: note != other.note to == 
+
+Testing mutant... Done (0.199 sec). Out of 108 tests, 1 failed:
+doo(TestAll): 
+Expected: is <Note{G}>
+     but: was <Note{G}>
